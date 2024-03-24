@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+#conteudo-principal {
+    margin: 55px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-table {
+    height: 29px;
+    width: 77px;
+    margin: -15px 0;
+    margin-right: -100px;
+    z-index: 1;
+    border: 1px solid gainsboro;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aa4dc8;
+}
+
+
+.title-table h3 {
+    font-size: 11.5px;
+    text-transform: uppercase;
+}
+
+table {
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+}
+
+thead tr {
+    height: 217px;
+    text-align: center;
+    
+}
+
+thead h4 {
+    font-size: 20px;
+}
+
+.subtitle-table {
+    font-size: 14px;
+    padding: 0 15px;
+    margin-bottom: 75px;
+}
+
+.subtitle-table02 {
+    font-size: 14px;
+}
+
+.cash-table {
+    font-size: 16px;
+}
+
+.infor-box .cash-table {
+    padding: 0 5px;
+    margin-bottom: 16px;
+}
+
+.infor-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.price-table {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.month-table {
+    padding: 0 5px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+thead img {
+    width: 14px;
+    height: 14px;
+    opacity: 50%;
+}
+
+.infor-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+    opacity: 76%;
+    padding: 0 15px;
+    margin: 20px 0 22px 0;
+    color: gray;
+}
+
+.first-td {
+    padding-left: 16px;
+}
+
+.infor-tbody img {
+    width: 18px;
+    height: 18px;
+    opacity: 35%;
+}
+
+.infor-tbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+
+
+.td-empty {
+    width: 312px;
+}
+
+thead td {
+    border: 1px solid gainsboro;
+    
+}
+
+tbody tr {
+    height: 48px;
+}
+
+tbody h5 {
+    font-size: 11.5px;
+    font-weight: 300;
+    opacity: 75%;
+ }
+
+tbody p {
+    font-size: small;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+
+tbody td {
+    border: 1px solid gainsboro;
+    width: 207px;
+    border-collapse: collapse;
+}
+
+.fa-solid {
+    padding: 0 97px;
+}
+
+.fa-check {
+    color: grey;
+}
+
+.fa-minus {
+    color: gainsboro;
+}
+
+.subtitle-td {
+    font-weight: 400;
+    text-align: center;
+}
+
+tbody td:nth-child(3) {
+    background-color: #f7f8fa;
+}
+
+thead td:nth-child(3) {
+    background-color: #f7f8fa;
+}
