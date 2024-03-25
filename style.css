@@ -50,7 +50,7 @@ thead {
 thead tr {
     height: 217px;
     text-align: center;
-    
+
 }
 
 thead h4 {
@@ -179,6 +179,10 @@ tbody td {
 .subtitle-td {
     font-weight: 400;
     text-align: center;
+}
+
+tbody tr:hover {
+    background-color: #f7f8fa;
 }
 
 tbody td:nth-child(3) {
