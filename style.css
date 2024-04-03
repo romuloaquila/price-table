@@ -108,11 +108,11 @@ header {
 }
 
 .section01 {
-    height: 357px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     background-color: #e8eaff;
     box-shadow: inset -16px 100px 30px -117px rgba(0,0,0,0.75);
